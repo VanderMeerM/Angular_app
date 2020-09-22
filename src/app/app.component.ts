@@ -5,6 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.sass']
 })
+
+
 export class AppComponent {
   title = 'my-app';
+  volledigenaam = 'Marcel van der Meer';
+  cursus = 'Angular';
 }

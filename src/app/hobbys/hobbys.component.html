@@ -1,0 +1,19 @@
+
+<style> 
+h4 {
+    color: green;
+}
+</style>
+
+<p>Mijn hobby's:</p>
+
+<div *ngFor="let hobby of hobbys">
+
+  <h3>
+      {{ hobby.naam }}</h3> 
+      <h4> ({{ hobby.omschrijving }})</h4>
+  
+
+</div>
+
+
